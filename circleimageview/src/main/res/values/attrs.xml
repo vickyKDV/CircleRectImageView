@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundSet">
+        <attr format="integer" name="border_width"/>
+        <attr format="color" name="border_color"/>
+        <attr name="android:scaleType"/>
+
+
+        <attr name="roundTopLeft" format="integer"/>
+        <attr name="roundTopRight" format="integer"/>
+        <attr name="roundBottomLeft" format="integer"/>
+        <attr name="roundBottomRight" format="integer"/>
+        <attr name="roundAll" format="integer"/>
+    </declare-styleable>
+
+</resources>
