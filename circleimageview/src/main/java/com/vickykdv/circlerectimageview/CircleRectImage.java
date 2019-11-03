@@ -68,7 +68,7 @@ public class CircleRectImage extends ImageView {
     public CircleRectImage(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
 
-        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.RoundSet, defStyle, 0);
+        @SuppressLint("CustomViewStyleable") TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.RoundSet, defStyle, 0);
 
 
         int roundtopleft = a.getInt(R.styleable.RoundSet_roundTopLeft,0);
